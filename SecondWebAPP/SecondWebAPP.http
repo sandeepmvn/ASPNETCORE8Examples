@@ -1,0 +1,10 @@
+@SecondWebAPP_HostAddress = https://localhost:7028
+
+GET {{SecondWebAPP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{SecondWebAPP_HostAddress}}/api/todoapi
+
+###
